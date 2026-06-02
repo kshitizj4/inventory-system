@@ -172,7 +172,6 @@ docker compose down -v       # Stop and remove volumes (reset database)
 
 ### Alternative Backend Platforms
 - **Railway**: https://railway.app
-- **Fly.io**: https://fly.io
 
 ### Alternative Frontend Platforms
 - **Netlify**: https://netlify.com
