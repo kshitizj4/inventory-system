@@ -1,0 +1,12 @@
+# Usage: docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d
+services:
+  backend:
+    image: your-dockerhub-username/inventory-backend:latest
+    restart: always
+
+  frontend:
+    image: your-dockerhub-username/inventory-frontend:latest
+    restart: always
+
+  db:
+    restart: always
